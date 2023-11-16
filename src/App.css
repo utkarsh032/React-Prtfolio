@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: #E1D9D1;
+  
+ }
+
+ header{
+  z-index: 10001 !important;
+}
+
+.btnOutLine{
+  @apply bg-gray-200 text-gray-500 text-xl font-medium rounded-xl px-3  py-2 shadow-sm  hover:text-gray-200 hover:bg-gray-500 transition-all duration-300
+}
+
+
+.inputField{
+  @apply w-full px-4 py-4 text-lg  focus:outline-none bg-black
+}
